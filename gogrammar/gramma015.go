@@ -1,0 +1,12 @@
+package main
+
+import "fmt"
+
+func main() {
+	if []byte("aaa")[0] == []byte("ccc")[0] {
+		fmt.Println([]byte("aaa")[0])
+		fmt.Println([]byte("ccc")[0])
+	} else {
+		fmt.Println("It's a different value.")
+	}
+}
